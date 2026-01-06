@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* common class typrography */
+
+/* main style  */
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ececec;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .logo h2 {
+  font-size: 30px;
+}
+
+.nav-container .logo .color-orange {
+  color: orange;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-container ul a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111;
+  background: url("../images/banner/banner1.png"), #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  height: 888px;
+
+  position: relative;
+}
+
+.banner .banner-container {
+  /* width: 80%;
+  margin: 0 auto;
+  padding-top: 200px; */
+}
+
+.banner .banner-content {
+  width: 525px;
+  text-align: right;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.banner .banner-content h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 67px;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 24px;
+}
+.banner .banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(68, 67, 67, 1);
+  margin-bottom: 32px;
+}
+
+.banner .banner-content .btn {
+  background-color: #f15b22;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#failure,
+.banner,
+#failure {
+  margin-bottom: 130px;
+}
+
+.failure-content {
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: center;
+  gap: 105px;
+}
+
+.failure-content .img img {
+  width: 451px;
+}
+
+.failure-content .text {
+  align-items: end;
+  width: 416px;
+}
+
+.failure-content .text h2 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: rgba(21, 20, 20, 1);
+}
+
+.failure-content .text p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: rgba(68, 67, 67, 1);
+}
