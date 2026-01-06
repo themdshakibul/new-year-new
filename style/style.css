@@ -15,18 +15,24 @@ body {
 
 /* common class typrography */
 
+.content {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 /* main style  */
 
 .navbar {
   width: 100%;
   margin: 0 auto;
+  padding: 25px 0;
   background-color: #ececec;
 }
 
 .nav-container {
   width: 80%;
   margin: 0 auto;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,14 +61,11 @@ body {
 
 .banner {
   width: 100%;
-  margin: 0 auto;
-  background-color: #111;
-  background: url("../images/banner/banner1.png"), #111;
-  background-size: cover;
+  background: url("../images/banner/banner1.png");
+  background-size: 1600px;
+  height: 808px;
   background-position: center;
   background-repeat: no-repeat;
-  /* height: 100vh; */
-  height: 888px;
 
   position: relative;
 }
@@ -95,20 +98,20 @@ body {
   color: rgba(68, 67, 67, 1);
   margin-bottom: 32px;
 }
-
-.banner .banner-content .btn {
+.btn {
   background-color: #f15b22;
   color: white;
   padding: 20px 40px;
   border: none;
   border-radius: 5px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #failure,
 .banner,
-#failure {
+#failure,
+#manidset {
   margin-bottom: 130px;
 }
 
@@ -143,4 +146,131 @@ body {
   font-weight: 400;
   margin-bottom: 16px;
   color: rgba(68, 67, 67, 1);
+}
+
+#plan {
+  margin-bottom: 130px;
+}
+
+.plan-container .header {
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  color: (21, 20, 20, 1);
+}
+
+.plan-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan-content .plan-card {
+  align-items: center;
+  text-align: center;
+}
+
+.plan-content .plan-card img {
+  width: 92px;
+  margin-bottom: 18px;
+}
+
+.plan-content .plan-card h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  font-style: Bold;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 18px;
+}
+
+.plan-content .plan-card p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+  font-style: Medium;
+  color: rgba(115, 114, 114, 1);
+}
+
+.maindset-container {
+  background: url("/images/gradient2.png"), url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.maindset-container .maindset-content {
+  width: 659px;
+  padding: 59px 64px;
+  text-align: left;
+}
+.maindset-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.maindset-content .btn {
+  background-color: white;
+  color: #f15b22;
+  cursor: pointer;
+}
+
+#future {
+  background-color: black;
+}
+
+#future .future-cintainer {
+  padding: 130px 0;
+}
+
+.future-cintainer .future-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 352px;
+}
+
+.future-content .social h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  color: rgba(248, 248, 248, 1);
+  margin-bottom: 16px;
+}
+
+.future-content .social p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(248, 248, 248, 1);
+  margin-bottom: 24px;
+}
+
+.future-content .social a {
+  margin-right: 16px;
+}
+.future-content .form h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  color: rgba(248, 248, 248, 1);
+  margin-bottom: 31px;
+}
+
+.future-content .form input[type="text"] {
+  padding: 20px;
+  width: 325px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form .btn {
+  cursor: pointer;
 }
